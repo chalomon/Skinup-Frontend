@@ -33,7 +33,6 @@ const authOptions: NextAuthOptions = {
             access_token: data.token,
           };
         }
-
         throw new Error("Credenciales inválidas");
       },
     }),
